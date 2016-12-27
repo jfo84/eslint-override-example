@@ -1,0 +1,28 @@
+{
+  "name": "eslint-override-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/try-catch-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfo84/eslint-override-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfo84/eslint-override-example/issues"
+  },
+  "homepage": "https://github.com/jfo84/eslint-override-example#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "mocha": "^3.2.0",
+    "mocha-eslint": "^3.0.1"
+  }
+}
