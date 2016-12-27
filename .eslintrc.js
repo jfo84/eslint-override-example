@@ -1,16 +1,15 @@
 module.exports = {
   root: true,
+  parser: 'babel-eslint',
   env: {
-    'node': true
+    node: true,
+    es6: true
   },
+  extends: [
+    'eslint:recommended',
+    'plugin:ember-suave/recommended'
+  ],
   rules: {
-    'keyword-spacing': ['error', {
-      'overrides': {
-        'catch': {
-          'after': false,
-        }
-      }
-    }],
-    'keyword-spacing': 'error',
+    'keyword-spacing': 'error'
   },
 };

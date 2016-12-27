@@ -17,6 +17,6 @@ describe('catch block with overrides', function() {
       console.log(report.results[0]);
     }
 
-    expect(errorCount).to.equal(1);
+    expect(errorCount).to.equal(0);
   });
 });

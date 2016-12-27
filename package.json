@@ -20,8 +20,10 @@
   },
   "homepage": "https://github.com/jfo84/eslint-override-example#readme",
   "devDependencies": {
+    "babel-eslint": "^7.1.1",
     "chai": "^3.5.0",
     "eslint": "^3.12.2",
+    "eslint-plugin-ember-suave": "^1.0.0",
     "mocha": "^3.2.0",
     "mocha-eslint": "^3.0.1"
   }
